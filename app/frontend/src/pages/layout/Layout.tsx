@@ -25,7 +25,7 @@ const Layout = () => {
                                 </NavLink>
                             </li>
                             <li className={styles.headerNavLeftMargin}>
-                                <a href="https://aka.ms/entgptsearch" target={"_blank"} title="Github repository link">
+                                <a href="https://inteltion.com" target={"_blank"} title="Inteltion">
                                     <img
                                         src={github}
                                         alt="Github logo"
