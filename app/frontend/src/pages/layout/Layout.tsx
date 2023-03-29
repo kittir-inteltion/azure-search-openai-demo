@@ -2,6 +2,8 @@ import { Outlet, NavLink, Link } from "react-router-dom";
 
 import github from "../../assets/github.svg";
 
+import inteltion from "../../assets/icon-inteltion-01.svg";
+
 import styles from "./Layout.module.css";
 
 const Layout = () => {
@@ -27,9 +29,9 @@ const Layout = () => {
                             <li className={styles.headerNavLeftMargin}>
                                 <a href="https://inteltion.com" target={"_blank"} title="Inteltion">
                                     <img
-                                        src={github}
-                                        alt="Github logo"
-                                        aria-label="Link to github repository"
+                                        src={inteltion}
+                                        alt="Inteltion logo"
+                                        aria-label="Link to Inteltion WebSite"
                                         width="20px"
                                         height="20px"
                                         className={styles.githubLogo}
